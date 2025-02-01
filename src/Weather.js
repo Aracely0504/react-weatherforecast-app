@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+
 export default function Weather() {
   return (
     <div className="Weather">
@@ -13,11 +14,15 @@ export default function Weather() {
             />{" "}
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
-      <h2>New York</h2>
+      <h1>New York</h1>
       <ul>
         <li>Wednesday 07:00</li>
         <li>Mostly Cloudy</li>
