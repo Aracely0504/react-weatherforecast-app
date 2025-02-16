@@ -9,10 +9,24 @@ export default function App() {
         <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
-          <a href="https://github.com/Aracely0504"> Aracely Campos </a> and is{" "}
-          <a href="https://github.com/Aracely0504/react-weatherforecast-app">
-            open-sourced of Github{" "}
+          <a href="https://github.com/Aracely0504" rel="noopener noreferrer">
+            {" "}
+            Aracely Campos{" "}
           </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Aracely0504/react-weatherforecast-app"
+            rel="noopener noreferrer"
+          >
+            open-sourced of Github{" "}
+          </a>
+          and{" "}
+          <a
+            href="https://react-weatherforecast-app.netlify.app/"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
