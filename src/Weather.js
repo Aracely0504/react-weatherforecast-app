@@ -7,11 +7,12 @@ import axios from "axios";
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
+
   function handleResponse(response) {
     setWeatherData({
-      temperature: response.data.temperature.current,
       ready: true,
-      coordinates: response.data.coord,
+      temperature: response.data.temperature.current,
+      coordinates: response.data.coordinates,
       date: new Date(response.data.time * 1000),
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,

@@ -11,9 +11,9 @@ export default function App() {
           This project was coded by{" "}
           <a href="https://github.com/Aracely0504" rel="noopener noreferrer">
             {" "}
-            Aracely Campos{" "}
+            Aracely Campos,{" "}
           </a>{" "}
-          and is{" "}
+          is{" "}
           <a
             href="https://github.com/Aracely0504/react-weatherforecast-app"
             rel="noopener noreferrer"
@@ -25,7 +25,7 @@ export default function App() {
             href="https://react-weatherforecast-app.netlify.app/"
             rel="noopener noreferrer"
           >
-            hosted on Netlify
+            hosted on Netlify.
           </a>
         </footer>
       </div>
